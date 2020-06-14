@@ -9,5 +9,32 @@ h1
 {
   font-size: 2rem;
   font-family: "monospace";
-  padding: 1em;
+  margin: 1.2em;
+}
+label
+{
+  font-family: "monospace";
+  padding: 2.5em;
+}
+
+input
+{
+  padding: 0.5em;
+}
+
+button.btn-options
+{
+  padding: 0.5em 1.5em;
+  font-family: "monospace";
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  text-shadow: 0.5px 0.5px white;
+}
+
+button#send
+{
+  margin-left: 4em;
+  margin-right: 2em;
 }
